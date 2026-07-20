@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <h2>JavaScript動態互動式網頁</h2>
+
+        <p id="demo">此段落內容可被JS改變</p>
+
+        <button type="button" onclick='document.getElementById("demo")
+        .innerHTML="Hello Java Script!"'>點擊觀看變化</button><br><br><br>
+
+        <button type="button" onclick='document.getElementById("myImage")
+        .src="1.png"'>開燈</button>
+
+        <button type="button" onclick='document.getElementById("myImage")
+        .src="2.png"'>關燈</button>
+
+        <br><br><img id="myImage" src="2.png">
+
+        <br><br><p id="demo2">此段落內容可被JS改變</p>
+
+        <button type="button" onclick='document.getElementById("demo2")
+        .style.fontSize="30px"'>點擊觀看變化</button>
+
+        <button type="button" onclick='document.getElementById("demo2")
+        .style.display="none"'>點擊隱藏</button>
+
+        <button type="button" onclick='document.getElementById("demo2")
+        .style.display="block"'>點擊顯示</button>
+
+    </body>
+</html>
