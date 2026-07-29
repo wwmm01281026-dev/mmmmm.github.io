@@ -1,26 +1,45 @@
 <!DOCTYPE html>
 
-<html>
-
+<html lang="zh-TW">
     <head>
-        <style>
-            p.two{
-                color: blue;
-                text-align: center;
-            }
-            p.large{
-                font-size: 200%;
-            }
-        </style>
 
+        <meta charset="UTF-8">
+        
+        <title>我的自我介紹</title>
+
+        <link rel="stylesheet" href="my.css">
+        <script src="my.js"></script>
 
     </head>
+
     <body>
-        <h2 class="two" id="a001">hello world!</h2>
 
-        <p class="two" id="a002">These paragraphs are styled with CSS.</p>
+        <div class="card">
+        
+            <h1 id="name">柯玟妤</h1>
+            <p class="job">大一新生｜程式設計初學者</p>
 
-        <p class="two large" id="a003">These paragraphs are styled with CSS.</p>
+         <hr>
 
-    </body>
+            <h2>關於我</h2>
+            <p>
+                我是柯玟妤<br>
+                平時喜歡打遊戲、看動漫，也對網頁設計與程式設計稍有興趣，
+                希望未來能學習更多。
+            </p>
+
+            <h2>興趣</h2>
+            <ul>
+                <li>🎮 打遊戲</li>
+                <li>🎨 看動漫、畫圖</li>
+                <li>🎵 聽音樂</li>
+            </ul>
+
+            <button onclick="sayHello()">很高興認識你！</button>
+
+            <p id="message"></p>
+        </div>
+
+    
+</body>
 </html>

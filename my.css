@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Microsoft JhengHei", sans-serif;
+}
+
+body{
+    background:#acd5ff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.card{
+    width:400px;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
+
+.profile{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    border:5px solid #6aa9ff;
+    object-fit:cover;
+    margin-bottom:15px;
+}
+
+h1{
+    color:#333;
+}
+
+.job{
+    color:gray;
+    margin:10px 0;
+}
+
+hr{
+    margin:20px 0;
+}
+
+h2{
+    margin:15px;
+    color:#4a7bd8;
+}
+
+ul{
+    list-style:none;
+    margin-bottom:20px;
+}
+
+li{
+    margin:8px 0;
+}
+
+button{
+    background:#4a90e2;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#357ABD;
+}
+
+#message{
+    margin-top:20px;
+    font-size:18px;
+    color:#444;
+    font-weight:bold;
+}
